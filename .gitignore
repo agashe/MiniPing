@@ -1,0 +1,119 @@
+# General ignores
+.DS_Store
+.env
+.idea/
+.vscode/
+*.log
+*.swp
+*~
+
+# Logs and temporary files
+log/
+tmp/
+temp/
+
+# Build artifacts
+build/*
+!build/.gitkeep
+
+# Common language-specific ignores
+
+# Python
+__pycache__/
+*.pyc
+.Python
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp.js
+.pnp.cjs
+.npm/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.log
+/target/
+/bin/
+.classpath
+.project
+.settings/
+.factorypath
+.metadata/
+
+# C# / .NET
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.nxj
+*.csproj.user
+*.resharper
+*.vspscc
+*.vssscc
+*.bak
+[Tt]humbs.db
+*.pdb
+*.pidb
+*.vshost.*
+*.dbsync
+*.npm/
+*.ntvs/
+*.njsproj
+*.sln.docstates
+*.sdf
+*.vso
+*.builds
+_ReSharper*/
+[Tt]est[Rr]esults/
+[Bb]uild[Tt]ools/
+[Mm]erge[Oo]utput/
+[Pp]ublish[Oo]utput/
+[Dd]ebug/
+[Rr]elease/
+
+# MacOS
+.DS_Store
+.Spotlight-V100
+.Trashes
+__MACOSX
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# Linux
+*~
+*.bak
+*.swp
+*.tmp
+
+# IDE specific files
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.iml # IntelliJ IDEA modules
+*.iws # IntelliJ IDEA workspaces
+*.ipr # IntelliJ IDEA projects
+*.vscode/ # VS Code
+
+# Crash dumps
+*.dmp
