@@ -14,16 +14,16 @@ Here are the available options:
 
 | Option | Description |
 |--------|-------------|
-|-c <count>         |stop after <count> replies
+|-c (count)         |stop after (count) replies
 |-D                 |print timestamps
 |-f                 |flood ping
 |-h                 |print help and exit
-|-i <interval>      |seconds between sending each packet
-|-s <size>          |use <size> as number of data bytes to be sent
-|-t <ttl>           |define time to live
+|-i (interval)      |seconds between sending each packet
+|-s (size)          |use (size) as number of data bytes to be sent
+|-t (ttl)           |define time to live
 |-v                 |verbose output
-|-w <deadline>      |reply wait <deadline> in seconds
-|-W <timeout>       |time to wait for response
+|-w (deadline)      |reply wait (deadline) in seconds
+|-W (timeout)       |time to wait for response
 
 ## Build
 
